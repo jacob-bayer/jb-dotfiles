@@ -1,0 +1,5 @@
+--format=csv
+
+[query]
+--use_legacy_sql=false
+

@@ -1,0 +1,11 @@
+#!/bin/bash
+ln -s ~/jb-dotfiles/dotfiles/.zshrc ~/.zshrc
+ln -s ~/jb-dotfiles/dotfiles/.p10k.zsh ~/.p10k.zsh
+ln -s ~/jb-dotfiles/dotfiles/.config/gtk-3.0 ~/.config/gtk-3.0
+ln -s ~/jb-dotfiles/dotfiles/.config/hypr ~/.config/hypr
+ln -s ~/jb-dotfiles/dotfiles/.config/nvim ~/.config/nvim
+ln -s ~/jb-dotfiles/dotfiles/.config/waybar ~/.config/waybar
+ln -s ~/jb-dotfiles/dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/jb-dotfiles/dotfiles/.config/lazygit ~/.config/lazygit
+ln -s ~/jb-dotfiles/dotfiles/.bigqueryrc ~/.bigqueryrc
+ln -s ~/jb-dotfiles/dotfiles/.config/.sqllsrc ~/.config/.sqllsrc
