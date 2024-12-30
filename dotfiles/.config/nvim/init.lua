@@ -231,7 +231,8 @@ require('lazy').setup({
     },
   },
   {
-    'kndndrj/nvim-dbee',
+    'jacob-bayer/nvim-dbee',
+    branch = 'bigquery-fix',
     dependencies = {
       'MunifTanjim/nui.nvim',
     },
