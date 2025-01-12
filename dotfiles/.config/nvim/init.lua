@@ -246,14 +246,23 @@ require('lazy').setup({
       require('dbee').setup(--[[optional config]])
     end,
   },
-  { 'natecraddock/workspaces.nvim', opts = {
-    cd_type = 'tab',
-    hooks = {
-      open = { 'tabnew', 'Neotree reveal' },
+  {
+    'natecraddock/workspaces.nvim',
+    opts = {
+      -- cd_type = 'tab',
+      hooks = {
+        open = { 'tabnew', 'Neotree reveal' },
+      },
     },
-  } },
-  { 'natecraddock/sessions.nvim' },
-
+  },
+  {
+    'natecraddock/sessions.nvim',
+    opts = {
+      events = { 'VimLeavePre' },
+      session_filepath = vim.fn.stdpath 'data' .. '/sessions',
+      absolute = true,
+    },
+  },
   { -- Fuzzy Finder (files, lsp, etc)
     'nvim-telescope/telescope.nvim',
     event = 'VimEnter',
